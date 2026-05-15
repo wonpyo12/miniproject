@@ -26,6 +26,9 @@
       </visual>
     </link>
     <plugin name="traffic_light_plugin" filename="libtraffic_light_plugin.so">
+      <ros>
+        <remapping>~/out:=traffic_light_status</remapping>
+      </ros>
     </plugin>
     <static>1</static>
   </model>

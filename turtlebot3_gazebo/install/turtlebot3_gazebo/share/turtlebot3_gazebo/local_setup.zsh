@@ -1,0 +1,1 @@
+/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.zsh

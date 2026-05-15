@@ -1,0 +1,104 @@
+[0.628s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.630s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d5df5a7b0a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d5df5c4c4c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d5df5c4c4c0>>)
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.228s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.379s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[1.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.797s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install
+[1.803s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 302 installed packages in /opt/ros/humble
+[1.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.199s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.201s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.203s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.205s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.208s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.211s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.213s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[2.215s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo' with build type 'ament_cmake'
+[2.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo'
+[2.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo -- -j12 -l12
+[5.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo -- -j12 -l12
+[6.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo
+[49.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[49.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/build/turtlebot3_gazebo
+[49.601s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo' for CMake module files
+[49.914s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo' for CMake config files
+[50.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[50.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[50.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[50.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[50.365s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/lib'
+[50.378s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/bin'
+[50.383s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[50.388s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[50.395s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/bin'
+[50.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[50.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[50.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[50.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[50.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[50.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[50.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[50.666s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo' for CMake module files
+[50.991s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo' for CMake config files
+[51.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[51.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[51.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[51.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[51.417s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/lib'
+[51.430s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/bin'
+[51.435s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[51.440s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[51.446s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/bin'
+[51.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[51.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[51.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[51.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[51.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[51.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[51.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[51.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[51.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[51.597s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[51.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[51.660s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[51.660s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.525s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/local_setup.ps1'
+[52.541s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/_local_setup_util_ps1.py'
+[52.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/setup.ps1'
+[52.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/local_setup.sh'
+[52.621s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/_local_setup_util_sh.py'
+[52.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/setup.sh'
+[52.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/local_setup.bash'
+[52.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/setup.bash'
+[52.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/local_setup.zsh'
+[52.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/ros2/project/turtlebot3_gazebo/install/setup.zsh'
