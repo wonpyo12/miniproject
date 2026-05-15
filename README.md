@@ -12,3 +12,12 @@
 - 환경설정 : source install/setup.bash
 - 모델지정 : export TURTLEBOT3_MODEL=waffle_pi
 - 빌드 : colcon build --symlink-install
+
+## 3주차 변경사항
+- ros2 토픽을 이용하여 파이썬 코드를 이용해 Gazebo환경에서 객체 상태를 변경할려고 하였으나 불가능하다고 판단하여 객체(신호등)를 인식하여 아두이노에서 상태가 변경되면 그 변경된 사항을 통신하여 그 상황에 맞게 동작하도록 변경
+
+- 기존 sample코드에서 turtlebot3_autorace_2020.world파일은 자율주행 수행하기에는 부적합한 부분이 있어 장애물 삭제 및 라인 연결하여 world파일 수정
+
+- 기존 사용하던 모델인 waffle_pi모델이 현재 world파일에 있는 트랙(라인)부분과 맞지 않아 모델 burger로 변경
+
+
